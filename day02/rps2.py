@@ -11,4 +11,4 @@ with open('./day02/rps.txt') as f:
             score += {'X' : 1, 'Y' : 5, 'Z' : 9}[me]
         else:
             score += {'X' : 2, 'Y' : 6, 'Z' : 7}[me]
-    print(score)
+    print(score) # 14859
