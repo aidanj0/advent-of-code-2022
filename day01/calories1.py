@@ -1,4 +1,4 @@
-with open('./day1/calories.txt') as f:
+with open('./day01/calories.txt') as f:
     curr = 0
     best = -1
     for line in f:

@@ -1,6 +1,6 @@
 import heapq as hq
 
-with open('./day1/calories.txt') as f:
+with open('./day01/calories.txt') as f:
     heap = []
     curr = 0
     for line in f:
