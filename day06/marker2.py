@@ -1,4 +1,4 @@
-with open('./day06/input.txt') as f:
+with open('./day06/marker.txt') as f:
     for line in f:
         s = line.strip()
         for i in range(len(s)):
