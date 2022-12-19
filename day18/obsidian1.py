@@ -1,7 +1,5 @@
-import copy
-
 posns = set()
-with open('./day18/test.txt') as f:
+with open('./day18/obsidian.txt') as f:
     for line in f:
         s = line.strip()
         posns.add( tuple( [ int(c) for c in s.split(',') ] ) )
